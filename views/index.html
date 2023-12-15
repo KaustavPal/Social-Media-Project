@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" /> -->
+    <title>Social Media</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post-from-div">
+        <h1>Create a Post</h1>
+        <form action="/library/add-post" method="post" class="form">
+          <div class="in-post-form">
+            <input
+              type="text"
+              name="link"
+              id="post-link"
+              class="post-link form-control"
+              required
+            />
+            <textarea
+              name="description"
+              id="post-description"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              id="add-post"
+              class="add-post btn btn-primary"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="post-list-div">
+        <h2>Posts</h2>
+        <ul id="post-list" class="post-list d-flex list-inline"></ul>
+      </div>
+      <!-- <hr /> -->
+      <!-- <div class="returned-book-div">
+        <div>
+          <ul
+            id="returned-book-list"
+            class="returned-book-list list-group"
+          ></ul>
+        </div>
+      </div> -->
+    </div>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

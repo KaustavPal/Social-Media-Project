@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 90%;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+}
+
+.in-book-form {
+  display: flex;
+  gap: 10px;
+}
+
+.bookName {
+  width: 500px;
+}
+
+.book-from-div {
+  margin-bottom: 50px;
+}
+
+.book-list-item {
+  width: 400px;
+  height: 250px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.book-list-item:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+.book-taken-btn,
+.paymentBtn {
+  margin-top: 20px;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: rgb(250, 250, 250);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
